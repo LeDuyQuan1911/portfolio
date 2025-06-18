@@ -357,67 +357,58 @@
       <p>Here are some of my main projects showcasing my skills in building web applications using microservice architecture and secure authentication.</p>
     </div>
 
-<div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+<div class="row gy-4 isotope-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <!-- E-Commerce Website -->
-  <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app" 
-    style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s; background: #fff;">
-    <div class="portfolio-content h-100" style="position: relative;">
-      <img src="assets/img/portfolio/ecommerce.jpg" class="img-fluid" alt="E-Commerce Website"
-        style="width: 100%; height: auto; display: block;">
-      <div class="portfolio-info" style="padding: 20px;">
-        <h4 style="font-size: 20px; font-weight: 600; margin-bottom: 10px;">E-Commerce Website</h4>
-        <p style="font-size: 14px; color: #555; margin-bottom: 15px;">
-          Multi-vendor platform with microservice architecture, RESTful APIs, and JWT authentication.
-        </p>
-        <a href="assets/img/portfolio/ecommerce.jpg" 
-          title="E-Commerce Website" 
-          data-gallery="portfolio-gallery-app" 
-          class="glightbox preview-link" 
-          style="margin-right: 10px; color: #007bff;">
-          <i class="bi bi-zoom-in"></i>
-        </a>
-        <a href="https://github.com/LeDuyQuan1911/CNLTHD_Final/tree/main/Multi_vendor_E_shop-part-5_microservice" 
-          target="_blank" 
-          title="More Details" 
-          class="details-link" 
-          style="color: #007bff;">
-          <i class="bi bi-link-45deg"></i>
-        </a>
-      </div>
-    </div>
+  <div style="flex: 1 1 45%; border: 1px solid #ccc; border-radius: 8px; padding: 20px; background: #fff;">
+    <h3 style="margin-bottom: 10px;">E-COMMERCE WEBSITE</h3>
+    <p><strong>2025 - 2025</strong></p>
+    <p><strong>Project Description:</strong><br>
+    Built a scalable multi-vendor e-commerce platform (Amazon-like) using microservice architecture. Each major function (authentication, product, order, payment, chat,...) was developed as an independent service with clean RESTful APIs and secure JWT-based authentication.</p>
+    <p><strong>Tech Stack:</strong><br>
+    <strong>Frontend:</strong> ReactJS<br>
+    <strong>Backend:</strong> Node.js, Express.js, MongoDB<br>
+    <strong>Microservices:</strong> Auth, Product, Order, Payment, Chat (with Socket.IO)<br>
+    <strong>Security:</strong> JWT (JSON Web Token) authentication<br>
+    <strong>Containerization:</strong> Docker (Dockerfiles & Docker Compose)<br>
+    <strong>Other Tools:</strong> Stripe, PayPal, Multer, Nodemailer, Cloudinary</p>
+    <p><strong>Key Features:</strong><br>
+    • Email-verified registration for users and vendors<br>
+    • Secure login system using JWT authentication<br>
+    • Seller storefront and product management<br>
+    • Shopping cart, order tracking, discount codes<br>
+    • Multi-method payments (Stripe, PayPal, COD)<br>
+    • Admin dashboard for full platform control</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/LeDuyQuan1911/CNLTHD_Final/tree/main/Multi_vendor_E_shop-part-5_microservice" target="_blank">View Repository</a></p>
   </div>
 
   <!-- National Championship Management -->
-  <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app" 
-    style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s; background: #fff;">
-    <div class="portfolio-content h-100" style="position: relative;">
-      <img src="assets/img/portfolio/championship.jpg" class="img-fluid" alt="National Championship Management"
-        style="width: 100%; height: auto; display: block;">
-      <div class="portfolio-info" style="padding: 20px;">
-        <h4 style="font-size: 20px; font-weight: 600; margin-bottom: 10px;">National Championship Management</h4>
-        <p style="font-size: 14px; color: #555; margin-bottom: 15px;">
-          Football championship system for teams, players, scheduling, and result tracking with JWT-based security.
-        </p>
-        <a href="assets/img/portfolio/championship.jpg" 
-          title="National Championship Management" 
-          data-gallery="portfolio-gallery-app" 
-          class="glightbox preview-link" 
-          style="margin-right: 10px; color: #007bff;">
-          <i class="bi bi-zoom-in"></i>
-        </a>
-        <a href="https://github.com/LeDuyQuan1911/Project_CNPM" 
-          target="_blank" 
-          title="More Details" 
-          class="details-link" 
-          style="color: #007bff;">
-          <i class="bi bi-link-45deg"></i>
-        </a>
-      </div>
-    </div>
+  <div style="flex: 1 1 45%; border: 1px solid #ccc; border-radius: 8px; padding: 20px; background: #fff;">
+    <h3 style="margin-bottom: 10px;">NATIONAL CHAMPIONSHIP MANAGEMENT</h3>
+    <p><strong>2025</strong></p>
+    <p>This project aims to build a <strong>National Football Championship Management System</strong>, supporting features such as team and player management, match scheduling, result tracking, and league rankings. The system is designed to assist tournament organizers in efficiently managing and monitoring the championship.</p>
+    <p><strong>Tech Stack:</strong><br>
+    <strong>Frontend:</strong> EJS (Embedded JavaScript templates), HTML, CSS, JavaScript<br>
+    <strong>Backend:</strong> Node.js, Express.js<br>
+    <strong>Database:</strong> MongoDB (Mongoose ODM)<br>
+    <strong>Architecture:</strong> MVC (Model–View–Controller)<br>
+    <strong>Authentication:</strong> JWT (JSON Web Token)<br>
+    <strong>Other Tools:</strong> Multer (file uploads), Nodemailer (email), Moment.js (date handling)</p>
+    <p><strong>Key Features:</strong><br>
+    • User and admin login system with secure JWT-based authentication<br>
+    • Email-verified registration for users (e.g., tournament organizers)<br>
+    • Team management: Add, edit, and delete football teams<br>
+    • Player management: Assign players to teams and manage their information<br>
+    • Match scheduling: Create and view fixtures with automatic date sorting<br>
+    • Score and result input: Update match results and display them<br>
+    • Automatic ranking table based on match outcomes (win/loss/draw and goal difference)<br>
+    • Admin dashboard to manage users, teams, players, and matches<br>
+    • Search and filter functionality for quick access to team/player information</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/LeDuyQuan1911/Project_CNPM" target="_blank">View Repository</a></p>
   </div>
 
 </div>
+
 
 
 
